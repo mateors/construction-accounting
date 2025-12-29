@@ -212,13 +212,4 @@ These are **suppliers or individuals** rather than expense categories. They shou
 - Sohel  
 - Stone Oahid  
 - Tuhin RFL  
-- Vashani  
-
----
-
-## 📌 How This Connects to Your Schema
-- **`doc_keeper`** → stores voucher metadata (`doc_number`, `project_id`, `posting_date`).  
-- **`transaction_record`** → records itemized expenses (`item_id`, `quantity`, `rate`, `price`).  
-- **`ledger_transaction`** → posts journal entries:  
-  - Debit: Expense account (from chart above)  
-  - Credit: Cash/Bank/Accounts Payable  
+- Vashani
